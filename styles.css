@@ -64,7 +64,11 @@ main {
 }
 
 .player--active {
-  background-color: rgb(81, 221, 81);
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(53, 146, 53) 25%,
+    rgb(189, 228, 189) 100%
+  );
 }
 
 .player--active .name {
