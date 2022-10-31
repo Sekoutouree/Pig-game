@@ -59,7 +59,9 @@ btnHold.addEventListener('click', function () {
     scores[activePlayer];
 
   //2. Check if player's score is >= 100
-  // Finish game
-  // Switch to next player
-  switchPlayer();
+  if (scores[activePlayer])
+    // Finish game
+
+    // Switch to next player
+    switchPlayer();
 });
